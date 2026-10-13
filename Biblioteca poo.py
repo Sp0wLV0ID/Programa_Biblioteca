@@ -43,7 +43,7 @@ class Biblioteca:
         print("El libro no está registrado.")
 
 
-# Se crea el objeto que utilizara el programa para administrar los libros en una biblioteca nueva con lista vacia.
+# Crea el objeto que utilizara el programa para administrar los libros en una biblioteca nueva con lista vacia.
 biblioteca = Biblioteca()
 
 # Mantiene el menu activo hasta elegir la opcion de salir.
