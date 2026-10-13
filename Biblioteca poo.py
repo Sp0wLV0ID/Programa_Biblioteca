@@ -55,11 +55,11 @@ while True:
     print(" 4. Eliminar libro 🗑️")
     print(" 5. Salir 👋")
 
-    opcion = input("Elige una opción: ").strip()
+    opcion = input("Elige una opción: ")
 
     # Ejecuta la accion segun la opcion elegida.
     if opcion == "1":
-        nombre = input("Nombre del libro: ").strip()
+        nombre = input("Nombre del libro: ")
         if nombre:
             biblioteca.agregar_libro(nombre)
         else:
@@ -69,11 +69,11 @@ while True:
         biblioteca.lista_de_libros()
 
     elif opcion == "3":
-        nombre = input("Libro a buscar: ").strip()
+        nombre = input("Libro a buscar: ")
         biblioteca.buscar_libro(nombre)
 
     elif opcion == "4":
-        nombre = input("Libro a eliminar: ").strip()
+        nombre = input("Libro a eliminar: ")
         biblioteca.eliminar_libro(nombre)
 
     elif opcion == "5":
